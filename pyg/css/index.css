@@ -1,0 +1,232 @@
+/*首页*/
+/*main模块开始*/
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 100%;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+/*快报模块*/
+.main .newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.main .newsflash .lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+
+.main .newsflash .bargain {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.main .newsflash .news-hd {
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.main .news-hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main .news-hd .more {
+    float: right;
+}
+
+.main .news-hd .more::after {
+    content: '\e920';
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: icomoon, serif;
+}
+
+.main .news-bd ul {
+    padding-top: 5px;
+}
+
+.main .news-bd ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.main .lifeservice {
+    overflow: hidden;
+}
+
+.main .lifeservice ul li {
+    float: left;
+    width: 25%;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.main .lifeservice ul li:nth-child(4n) {
+    border-right: none;
+}
+
+.main .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -19px -15px;
+}
+
+/*main模块结束*/
+
+/*recom模块开始*/
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    padding-top: 30px;
+    text-align: center;
+    background: #4c4c4c;
+}
+
+.recom .recom_bd {
+    float: left;
+}
+
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom .recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom .recom_bd ul li:nth-child(-n + 3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background: #ddd;
+}
+
+.recom .recom_bd ul li a {
+    float: left;
+    display: inline-block;
+
+}
+
+/*recom模块结束*/
+/*floor开始*/
+/*一楼*/
+.floor .box_hd {
+    border-bottom: 2px solid #e60012;
+}
+
+.floor .w {
+
+    margin-top: 20px;
+}
+
+.floor .box_bd {
+    height: 360px;
+}
+
+.floor .box_hd h3 {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e60012;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.floor .tab_list ul li {
+    float: left;
+}
+
+.floor .tab_list ul li:nth-child(-n+8)::after {
+    content: '|';
+    margin: 0 10px;
+}
+
+.floor .tab_list ul li:last-child::after {
+    content: '';
+}
+
+.tab_list_item > div {
+    float: left;
+    height: 360px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background: rgb(251, 251, 251);
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+/*floor结束*/

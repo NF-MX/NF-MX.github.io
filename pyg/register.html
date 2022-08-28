@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>品优购用户注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<header class="header w">
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
+    </div>
+</header>
+<section class="main w">
+    <h3>
+        注册新用户
+        <a href="#" class="login">已有帐号,立即登录!</a>
+    </h3>
+    <div class="reg_form">
+        <form action="#">
+            <ul>
+                <li>
+                    <label for="tel">手机号:</label>
+                    <input type="tel" name="tel" id="tel" class="npi">
+                    <span class="error">
+                        <i class="error_icon"></i>手机号码格式错误
+                    </span>
+                </li>
+                <li>
+                    <label for="number">短信验证码:</label>
+                    <input type="text" name="number" id="number" class="npi">
+                </li>
+                <li>
+                    <label for="password">登陆密码:</label>
+                    <input type="password" name="password" id="password" class="npi">
+                </li>
+                <li class="safe">
+                    安全程度 <em>弱</em><em>中</em><em>强</em>
+                </li>
+                <li>
+                    <label for="confim">确认密码:</label>
+                    <input type="password" name="confim" id="confim" class="npi">
+                    <span class="error">
+                        <i class="error_icon"></i>前后密码不一致
+                    </span>
+                </li>
+                <li class="agree">
+                    <input type="checkbox" name="" id="ok">
+                    <label for="ok">同意协议并注册</label>
+                    <a href="#">《用户协议手册》</a>
+                </li>
+                <li>
+                    <input type="submit" class="btn" value="完成注册">
+                </li>
+            </ul>
+        </form>
+    </div>
+</section>
+<!--footer模块-->
+<footer class="footer">
+    <div class="w">
+        <div class="mod_copyright">
+            <div class="links"><a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a>
+                |
+                <a href="#">营销中心</a> | <a href="#">手机品优购</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a
+                        href="#">品优购社区</a> | <a href="#">品优购公益</a> | <a href="#">English Site</a> | <a href="#">Contact
+                    U</a></div>
+            <div class="copyright">地址：湖南长沙东方红 邮编：0731 电话：0731-xxx 传真：xx邮箱: zhanghj+itcast.cn<br><a href="#">湘ICP备2022009950号</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer模块结束-->
+</body>
+</html>

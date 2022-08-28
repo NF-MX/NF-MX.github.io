@@ -204,15 +204,21 @@
 }
 
 .nav .dropdow .dd {
-    visibility: hidden;
+    /*visibility: hidden;*/
     width: 210px;
     height: 465px;
     margin-top: 2px;
     background: #c81623;
 }
 
+.nav .dropdow .dd ul li {
+    position: relative;
+}
+
 .nav .dropdow .dd ul li::after {
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 1px;
     content: '\e920';
     margin-right: 10px;
     font-family: icomoon, serif;
@@ -331,7 +337,9 @@
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
+
 .footer .mod_copyright .copyrigght {
     line-height: 20px;
 }
+
 /*footer模块结束*/
