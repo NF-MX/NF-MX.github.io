@@ -58,8 +58,8 @@
         height: 125px;
         width: 100%;
         overflow: hidden;
-		/*修正背景颜色*/
-		background: #fff;
+        /*修正背景颜色*/
+        background: #fff;
         /* background: rgb(6, 212, 240); */
     }
 
@@ -202,6 +202,7 @@
 
     .orange {
         color: orange;
+        /*color: #666;*/
     }
 
     .time {
@@ -457,9 +458,9 @@
         <div class="jia">
             正在休假中
         </div>
-<!--         <div class="clock">
-            <div id="clock"></div>
-        </div> -->
+        <!--         <div class="clock">
+                    <div id="clock"></div>
+                </div> -->
 
     </div>
 </div>
@@ -470,10 +471,10 @@
         <div id="header">
             <div class="t">
                 <div>
-                    <span class="l">请假类型：</span><span class="r">事假</span></span>
+                    <span class="l">请假类型：</span><span class="r">事假（不离校）</span></span>
                 </div>
                 <div>
-                    <span class="l">需要离校：</span><span class="r orange">离校</span></span>
+                    <span class="l">需要离校：</span><span class="r orange" style="color: #666;">离校</span></span>
                 </div>
             </div>
             <div><span class="l">销假规则：</span><span class="r orange">离校请假需要销假，非离校请假无需销假 <span
@@ -496,7 +497,7 @@
             <div class="another">
                 <p><span class="l">审批流程：</span><span class="r">共1步 <span class="c">查看></span></span></p>
                 <p><span class="l">紧急联系人：</span><span class="r">{{phone}}</span></p>
-                <div class="why"><span class="l">请假原因：</span><span class="r">{{why}}</span></div>
+                <div class="why"><span class="l">请假原因：</span><span class="r">{{why}}本人承诺不离市，不隐瞒行程。</span></div>
                 <p><span class="l">发起位置：</span><span class="r"><span class="c">{{nowPlace}}</span></span>
                 </p>
                 <p><span class="l">抄送人：</span><span class="r">无</span></p>
