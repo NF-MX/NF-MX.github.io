@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<span class="click">萎哥!点我有只因只因</span>
+<p class="content">我陈伟铖是个大傻逼</p>
+<p class="img"><img src="images/cwc.jpg" alt=""></p>
+<script>
+    let span = document.querySelector('.click');
+    let content = document.querySelector('.content');
+    let img = document.querySelector('.img');
+    span.onclick = function () {
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            img.style.display = 'block';
+            this.innerHTML = '萎哥!点我关闭你的小只因只因'
+        } else {
+            content.style.display = 'none';
+            img.style.display = 'none';
+            this.innerHTML = '萎哥!点我有打开你的小只因只因'
+        }
+
+    }
+</script>
+</body>
+</html>

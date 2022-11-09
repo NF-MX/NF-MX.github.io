@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.click {
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: pink;
+}
+.content {
+    display: none;
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 100px;
+    color: limegreen;
+}
+
+.img {
+    display: none;
+    width: 214px;
+    margin: 100px auto;
+}
